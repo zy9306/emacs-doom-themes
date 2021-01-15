@@ -50,15 +50,18 @@ determine the exact padding."
    (grey       base4)
    (red        '("#e45649" "#e45649" "red"          ))
    (orange     '("#da8548" "#dd8844" "brightred"    ))
-   (green      '("#50a14f" "#50a14f" "green"        ))
+   ;; (green      '("#50a14f" "#50a14f" "green"        ))
    (teal       '("#4db5bd" "#44b9b1" "brightgreen"  ))
    (yellow     '("#986801" "#986801" "yellow"       ))
-   (blue       '("#4078f2" "#4078f2" "brightblue"   ))
+   ;; (blue       '("#4078f2" "#4078f2" "brightblue"   ))
    (dark-blue  '("#a0bcf8" "#a0bcf8" "blue"         ))
    (magenta    '("#a626a4" "#a626a4" "magenta"      ))
    (violet     '("#b751b6" "#b751b6" "brightmagenta"))
    (cyan       '("#0184bc" "#0184bc" "brightcyan"   ))
    (dark-cyan  '("#005478" "#005478" "cyan"         ))
+   ;; custom
+   (green miku-origin)
+   (blue miku-brightness-65)
 
    ;; face categories -- required for all themes
    (highlight      blue)
